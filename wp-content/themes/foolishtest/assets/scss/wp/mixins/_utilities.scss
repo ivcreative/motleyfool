@@ -1,0 +1,93 @@
+
+@mixin media( $res ) {
+	@if mobile == $res {
+		@media only screen and (min-width: $breakpoint-small) {
+			@content;
+		}
+	}
+
+	@if tablet == $res {
+		@media only screen and (min-width: $breakpoint-medium) {
+			@content;
+		}
+	}
+
+	@if desktop == $res {
+		@media only screen and (min-width: $breakpoint-large) {
+			@content;
+		}
+	}
+
+	@if wide == $res {
+		@media only screen and (min-width: $breakpoint-xlarge) {
+			@content;
+		}
+	}
+        
+        @if mobilemax == $res {
+		@media only screen and (max-width: $breakpoint-xsmall-max) {
+			@content;
+		}
+	}
+
+	@if tabletmax == $res {
+		@media only screen and (max-width: $breakpoint-small-max) {
+			@content;
+		}
+	}
+
+	@if desktopmax == $res {
+		@media only screen and (max-width: $breakpoint-medium-max) {
+			@content;
+		}
+	}
+
+	@if widemax == $res {
+		@media only screen and (max-width: $breakpoint-large-max) {
+			@content;
+		}
+	}
+}
+
+
+
+@mixin link-transition( $attr: color ) {
+	transition: $attr $link_transition ease-in-out;
+}
+
+@mixin button-transition() {
+	transition: background $button_transition ease-in-out;
+}
+
+@mixin button-all-transition() {
+	transition: all $button_transition ease-in-out;
+}
+
+@mixin background-transition() {
+	transition: background $background_transition ease-in-out;
+}
+
+@mixin selection {
+	::-moz-selection {
+		@content;
+	}
+	::selection {
+		@content;
+	}
+}
+
+ @mixin rotate($degrees) {
+    -webkit-transform: rotate($degrees);
+    -moz-transform: rotate($degrees);
+    -ms-transform: rotate($degrees);
+    -o-transform: rotate($degrees);
+    transform: rotate($degrees);
+    
+}
+
+@mixin transform-origin ($origin) {
+    	-webkit-transform-origin: $origin;
+    	-moz-transform-origin: $origin;
+	-ms-transform-origin: $origin;
+	transform-origin: $origin;
+}

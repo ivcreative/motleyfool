@@ -1,0 +1,88 @@
+/*
+Theme Name: Foolish Test
+Theme URI: https://github.com/ivcreative/foolish
+Author: MQ
+Author URI: https://wordpress.org/
+Description: A new Gutenberg-ready theme.
+Requires at least: WordPress 5.0
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: foolish
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Foolish Test is based on Underscores https://underscores.me/, (C) 2012-2018 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+@import "wp/variables-site/variables-site";
+
+
+
+
+@import "wp/mixins/mixins-master";
+
+
+/* Typography */
+
+/*@import "wp/typography/typography";*/
+
+/* Elements */
+
+@import "wp/elements/elements";
+
+/* Grid Elements */
+
+@import "wp/elements/mqgrid";
+
+/* Forms */
+
+@import "wp/forms/forms";
+
+/* Navigation */
+
+@import "wp/navigation/navigation";
+
+/* Accessibility */
+
+@import "wp/modules/accessibility";
+
+/* Alignments */
+
+@import "wp/modules/alignments";
+
+/* Clearings */
+
+@import "wp/modules/clearings";
+
+/* Layout */
+
+@import "wp/layout/layout";
+
+/* Content */
+
+@import "wp/site/site";
+
+/* Widgets */
+
+@import "wp/site/secondary/widgets";
+
+/* Blocks */
+
+@import "wp/blocks/blocks";
+
+/* Media */
+
+@import "wp/media/media";
+
+/* custom pages */
+
+
+

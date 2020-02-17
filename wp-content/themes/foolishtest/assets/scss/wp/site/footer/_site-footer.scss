@@ -1,0 +1,101 @@
+/* Site footer */
+
+
+#colophon {
+    background-color: $color__background_footer;
+    padding-top: $global-gutter;
+    padding-bottom: $global-gutter;
+    background-position: center top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: #fff;
+    .widget-area,
+    .site-info {
+        color: #fff;
+        padding-top: $global-gutter;
+        padding-bottom: $global-gutter;
+        text-align: center;
+
+        a {
+            color: inherit;
+
+            &:hover {
+                text-decoration: none;
+                color: $bright-yellow;
+            }
+        }
+        hr {
+            margin: $global-gutter 0px;
+        }
+
+        .imprint,
+        .privacy-policy-link {
+            margin-right: $size__spacing-unit;
+        }
+        h2 {
+            font-size: 60px;
+            color: white;
+            font-weight: 300;
+            @include media(tabletmax) {
+                text-align: center;
+                font-size: 30px;
+            }
+        }
+        h3 {            
+            color: white;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .shifter {
+            padding-left: 0px;
+            @include media(tablet) {padding-left: 50px;}
+        }
+        .shiftersmall {
+            padding-left: 30px;
+            @include media(tabletmax) {
+                text-align: center;
+            }
+            img {
+                padding-left: 36px;
+                @include media(tabletmax) {
+                    padding-left: 0px;
+                }
+            }
+            h3 {
+                @include media(tabletmax) {
+                    text-align: center;
+                }
+            }
+        }        
+        
+        .widget-column {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: left;
+            .widget {
+                width: 100%;
+                @include media(desktop) {
+                    margin-right: calc(2 * #{$size__spacing-unit});
+                    width: calc(50% - (2 * #{$size__spacing-unit}));
+                }
+            }
+        }
+
+        #copyright {        
+
+            background-color: $dark-blue;
+            .uk-text-small {
+                font-size: 13px;
+                padding: 0px;
+                margin-bottom: 10px;
+                margin-top: 15px;
+            }
+
+            .totop {
+                right: 25px;
+                top: -28px;
+            }
+        }
+    }
+}

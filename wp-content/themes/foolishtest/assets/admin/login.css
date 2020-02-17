@@ -1,0 +1,165 @@
+/******************************************************************
+Login Stylesheet
+******************************************************************/
+
+/*********************
+TEXT SHADOW
+*********************/
+#login {
+  font-style: normal;
+  font-weight: 300;
+  background-color: rgba(0,0,0,0.7);
+    padding: 30px;
+    margin-top: 15%;
+    color: #fff;
+    /*   -moz-box-shadow:    inset 0 0 10px #fff;
+   -webkit-box-shadow: inset 0 0 10px #fff;
+   box-shadow:         inset 0 0 10px #fff;*/
+    border: 1px solid white;
+}
+/* the form box */
+body.login {
+  background-image: url(../images/bg/login-background.jpg);
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left center;
+  background-size: cover;
+    font-style: normal;
+  font-weight: 300;
+}
+
+body.login h1 a {
+  background: url(../images/footer/Waltz_Logo_White.svg) no-repeat top center;
+  background-size: contain;
+  /* make sure to replace this! */
+  width: 326px;
+  height: 67px;
+  text-indent: -9999px;
+  overflow: hidden;
+  padding-bottom: 15px;
+  display: block;
+    -webkit-filter: drop-shadow(2px 1px 2px rgba(0,0,0,0.4));
+  filter: drop-shadow(2px 1px 2px rgba(0,0,0,0.4));
+  color: #fff;
+}
+body.login form#loginform {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 80%;
+  margin-left: 8px;
+  padding: 0;
+  font-weight: normal;
+  background: white;
+  background: none;
+  border: none;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  -khtml-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+body.login form#loginform label {
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: .1em;
+  color: #fff;
+}
+body.login form#loginform .input {
+  border: 0;
+  width: 100%;
+  padding: .75em;
+  background: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  color: rgba(53, 53, 53, 0.9);
+  border: 1px solid rgba(53, 53, 53, 0.15);
+}
+body.login form#loginform .input:focus {
+  border: 1px solid #d95a24;
+  background: #ffffff;
+}
+body.login form#loginform .input[type="submit"] {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 50%;
+  padding: .5em .75em;
+  margin-left: 1em;
+  display: inline-block;
+  margin-left: 0;
+  padding: 1em;
+  font-size: 1em;
+  border: none;
+}
+body.login form#loginform .input[type="submit"] span:before {
+  margin-right: .5em;
+}
+body.login form#loginform .input[type="submit"]:hover {
+  color: #ffffff;
+  background: #000;
+}
+.login #backtoblog a, .login #nav a {
+    color: #fff;
+}
+
+.login #login_error, .login .message {
+    background-color: #2082a0;
+}
+.login form {
+    background: rgba(255, 255, 255, 0.9);
+}
+.wp-core-ui .button-primary {
+    background: rgba(255, 255, 255, 0);
+    border-color: #FFF;
+
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+.wp-core-ui .button-primary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #FFF;
+
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+
+
+.login #login_error, .login .message {
+    border-left: 4px solid #d95a24;
+    padding: 12px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    background-color: #000;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+
+/************************
+LETS5G CUSTOM BLOCKS
+************************/
+.acf-block-preview .uk-container-xsmall { width: 650px; }
+.acf-block-preview .uk-container>:last-child {
+    margin-bottom: 0;
+}
+.acf-block-preview .uk-border-rounded {
+    border-radius: 5px;
+}
+.acf-block-preview .uk-card-primary {
+    background: #f15822;
+    color: #fff;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}

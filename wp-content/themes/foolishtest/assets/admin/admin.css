@@ -1,0 +1,67 @@
+
+/**************************
+LETS5G ADMINCUSTOM BLOCKS
+**************************/
+
+.acf-block-preview [id^="hero-block_"] .bg-cover.bg-center {
+  min-height: 450px;
+  background-size: cover;
+}
+
+.acf-block-preview .uk-flex-middle {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.acf-block-preview .uk-flex-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.acf-block-preview .uk-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.acf-block-preview .uk-background-cover {
+    background-size: cover;
+}
+.acf-block-preview .uk-background-contain, .uk-background-cover {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+
+.acf-block-preview .uk-container-xsmall { width: 650px; margin: 15px auto; padding: 20px 0; }
+.acf-block-preview .uk-container>:last-child {
+    margin-bottom: 0;
+}
+.acf-block-preview .uk-border-rounded {
+    border-radius: 5px;
+}
+.acf-block-preview .uk-card-primary {
+    background: #f15822;
+    color: #fff;
+    -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+.acf-block-preview .uk-card-body {
+    padding: 10px 10px;
+}
+@media (min-width: 1200px) {
+  .acf-block-preview .uk-card-body {
+    padding: 20px 20px;
+}
+}
+
+.acf-block-preview .uk-text-center {
+    text-align: center!important;
+}
+.acf-block-preview .uk-text-bold {
+    font-weight: bolder;
+}
+.acf-block-preview .uk-card-title {
+    font-size: 2.25rem;
+    line-height: 1.4;
+    letter-spacing: 1.4px;
+}

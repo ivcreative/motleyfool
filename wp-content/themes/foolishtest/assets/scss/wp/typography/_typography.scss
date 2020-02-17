@@ -1,0 +1,18 @@
+
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $color__text-main;
+	font-family: $font__body;
+	font-weight: 400;
+	line-height: $font__line-height-body;
+	text-rendering: optimizeLegibility;
+}
+
+@import "headings";
+
+@import "copy";
+
+@include non-latin-fonts();

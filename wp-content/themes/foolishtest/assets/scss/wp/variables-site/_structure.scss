@@ -1,0 +1,32 @@
+// Responsive widths.
+
+$size__spacing-unit: 1rem;
+$size__site-main: 100%;
+$size__site-sidebar: 25%;
+$size__site-margins: calc(10% + 60px);
+$size__site-tablet-content: calc(8 * (100vw / 12) - 28px);
+$size__site-desktop-content: calc(6 * (100vw / 12) - 28px);
+
+// Responsive widths.
+
+$mobile_width: 600px;
+$tablet_width: 768px;
+$desktop_width: 1168px;
+$wide_width: 1379px;
+
+//other wide
+
+$breakpoint-small: 640px !default;
+$breakpoint-medium: 960px !default;
+$breakpoint-large: 1200px !default;
+$breakpoint-xlarge: 1600px !default;
+$breakpoint-xsmall-max: ($breakpoint-small - 1) !default;
+$breakpoint-small-max: ($breakpoint-medium - 1) !default;
+$breakpoint-medium-max: ($breakpoint-large - 1) !default;
+$breakpoint-large-max: ($breakpoint-xlarge - 1) !default;
+
+//gutters
+
+$global-gutter: 30px !default;
+$global-large-gutter: 70px !default;
+
