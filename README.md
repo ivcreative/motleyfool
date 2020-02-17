@@ -6,13 +6,13 @@ Live Demo site: [http://fool.thequintero.com](http://fool.thequintero.com/)
 
 ## Install with Git
 
-1. Clone the repo: `git clone https://github.com/ivcreative/foolish.git` to your themes directory.
+1. Clone the repo: `git clone https://github.com/ivcreative/motleyfool.git` to your themes directory.
 
 2. Log in to your dashboard and navigate to `Appearance → Themes`. Click the **Activate** button on the foolish theme.
 
 ## Simple Installation
 
-1. **[Download the .zip file from here](https://github.com/ivcreative/foolish/archive/master.zip)***.
+1. **[Download the .zip file from here](https://github.com/ivcreative/motleyfool/archive/master.zip)***.
 ![enter image description here](http://thequintero.com/img/1.JPG)
 
 2. Navigate to `wp-admin → Appearance → Themes → Add New → Upload Theme`. Choose the zip file you just downloaded, upload and activate.
